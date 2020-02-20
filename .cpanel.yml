@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home3/glmflqmy/public_html/accelerate/staging/1337/
-    - /bin/cp -R wp-content/* $DEPLOYPATH
+    - /bin/cp -R wp-content/* $DEPLOYPATH/wp-content/
